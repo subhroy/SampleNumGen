@@ -4,6 +4,7 @@ import java.util.UUID;
 
 /**
  * Generate a unique number
+ * in Java
  *
  */
 public class NumGenerator
@@ -15,6 +16,9 @@ public class NumGenerator
         System.out.println("Unique Number : " + obj.generateUniqueKey());
     }
 
+    /**
+     * @return unique id
+     */
     public String generateUniqueKey(){
 
     	String id = UUID.randomUUID().toString();

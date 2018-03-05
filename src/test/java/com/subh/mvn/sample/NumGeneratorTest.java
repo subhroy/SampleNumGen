@@ -3,6 +3,10 @@ package com.subh.mvn.sample;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * JUNIT Test class
+ *
+ */
 public class NumGeneratorTest {
 
 	@Test
